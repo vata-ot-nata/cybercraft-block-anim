@@ -1,0 +1,18 @@
+name: BlockAnim
+version: '${project.version}'
+main: cyberprank.blockanim.BlockAnim
+api-version: 1.20
+depend: [ WorldEdit ]
+commands:
+  animcreate:
+    description: 'create anim'
+  animdelete:
+    description: 'delete anim'
+  addframe:
+    description: 'add frame'
+  removeframe:
+    description: 'remove frame'
+  setdelay:
+    description: 'set delay'
+  animreload:
+    description: 'reload plugin'
