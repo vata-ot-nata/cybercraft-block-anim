@@ -60,15 +60,15 @@ public final class BlockAnim extends JavaPlugin implements Listener {
                         String[] pos2 = configSection.getString(anim + ".pos2").split(" ");
                         String[] pos3 = configSection.getString(anim + ".pos3").split(" ");
 
-                        BlockVector3 min = new BlockVector3(
-                                Integer.parseInt(pos1[0]) + (i * distance) - 2,
+                        BlockVector3 min = BlockVector3.at(
+                                Integer.parseInt(pos1[0]) + (i * distance), // there was -2 for some reason
                                 Integer.parseInt(pos1[1]),
                                 Integer.parseInt(pos1[2]));
-                        BlockVector3 max = new BlockVector3(
-                                Integer.parseInt(pos2[0]) + (i * distance) + 1,
+                        BlockVector3 max = BlockVector3.at(
+                                Integer.parseInt(pos2[0]) + (i * distance), // there was +1 for some reason
                                 Integer.parseInt(pos2[1]),
                                 Integer.parseInt(pos2[2]));
-                        BlockVector3 to = new BlockVector3(
+                        BlockVector3 to = BlockVector3.at(
                                 Integer.parseInt(pos3[0]),
                                 Integer.parseInt(pos3[1]),
                                 Integer.parseInt(pos3[2]));
