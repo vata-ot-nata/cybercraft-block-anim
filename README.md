@@ -3,7 +3,7 @@
 
 BlockAnim allows server administrators to create dynamic block animations using a sequence of static animation frames placed next to each other in the world with a fixed offset along the X-axis.
 Each frame is a pre-built block structure that remains static in its original location. BlockAnim sequentially copies these frames and pastes them into a designated target location,
-creating the illusion of animated screen, waving flag, smoke rising from a chimney or other animated effects.
+creating the illusion of an animated screen, a waving flag, smoke rising from a chimney, or other animated effects.
 
 The plugin uses WorldEdit's clipboard system to efficiently copy regions and paste them at target locations. Animations run asynchronously in a loop, with configurable number of frames and delays.
 
