@@ -1,10 +1,11 @@
 # Cybercraft Block Animations
 [Download](https://github.com/vata-ot-nata/cybercraft-block-anim/releases)
 
-BlockAnim allows server administrators to create dynamic block animations by defining a source region that gets copied and pasted repeatedly with an offset.
-Each frame shifts the copied blocks along the X-axis, creating the illusion of movement, scrolling text, or other animated effects.
+BlockAnim allows server administrators to create dynamic block animations using a sequence of static animation frames placed next to each other in the world with a fixed offset along the X-axis.
+Each frame is a pre-built block structure that remains static in its original location. BlockAnim sequentially copies these frames and pastes them into a designated target location,
+creating the illusion of animated screen, waving flag, smoke rising from a chimney or other animated effects.
 
-The plugin uses WorldEdit's clipboard system to efficiently copy regions and paste them at target locations. Animations run asynchronously on a timer, with configurable frame counts and delays.
+The plugin uses WorldEdit's clipboard system to efficiently copy regions and paste them at target locations. Animations run asynchronously in a loop, with configurable number of frames and delays.
 
 ## Visual Demonstration
 (Clickable)  
@@ -28,8 +29,8 @@ The plugin uses WorldEdit's clipboard system to efficiently copy regions and pas
 |---------|-----------|-------------|
 | `/animcreate` | `<name> <frames> <delay> <x1> <y1> <z1> <x2> <y2> <z2> <x3> <y3> <z3> <distance>` | Creates a new animation |
 | `/animdelete` | `<name>` | Deletes an animation |
-| `/addframe` | `<name>` | Increases frame count by 1 |
-| `/removeframe` | `<name>` | Decreases frame count by 1 |
+| `/addframe` | `<name>` | Increases number of frames by 1 |
+| `/removeframe` | `<name>` | Decreases number of frames by 1 |
 | `/setdelay` | `<name> <delay>` | Sets the delay between frames (in ticks) |
 | `/animreload` | — | Reloads the plugin |
 
