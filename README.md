@@ -8,7 +8,7 @@ The plugin uses WorldEdit's clipboard system to efficiently copy regions and pas
 
 ## Visual Demonstration
 
-[![Visual demonstration](preview.gif)](https://youtu.be/jylJQEwPslw?si=5nmgVfPokrqMkd95)
+[![Visual demonstration](https://img.youtube.com/vi/5nmgVfPokrqMkd95/maxresdefault.jpg)](https://youtu.be/jylJQEwPslw?si=5nmgVfPokrqMkd95)
 
 ## Requirements
 
