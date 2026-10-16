@@ -14,12 +14,12 @@ The plugin uses WorldEdit's clipboard system to efficiently copy regions and pas
 ## Requirements
 
 - Minecraft server (Spigot/Paper)
-- WorldEdit plugin
+- WorldEdit plugin (Tested with WorldEdit v7.3.10)
 
 ## Installation
 
-1. Install WorldEdit on your server
-2. Download BlockAnim.jar and place it in your `plugins` folder
+1. Install [WorldEdit](https://modrinth.com/plugin/worldedit/versions?l=paper) on your server
+2. [Download the latest BlockAnim.jar](https://github.com/vata-ot-nata/cybercraft-block-anim/releases) and place it in your `plugins` folder
 3. Restart the server
 4. Use `/animcreate` to set up your first animation
 
