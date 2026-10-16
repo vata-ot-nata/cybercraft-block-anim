@@ -7,7 +7,7 @@ Each frame shifts the copied blocks along the X-axis, creating the illusion of m
 The plugin uses WorldEdit's clipboard system to efficiently copy regions and paste them at target locations. Animations run asynchronously on a timer, with configurable frame counts and delays.
 
 ## Visual Demonstration
-(Clickable)
+(Clickable)  
 [![Visual demonstration](https://i.ytimg.com/vi/jylJQEwPslw/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCCteejp0ihEh8C9JHN2lJjnowUaQ)](https://youtu.be/jylJQEwPslw?si=5nmgVfPokrqMkd95)  
 
 ## Requirements
