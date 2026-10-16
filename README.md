@@ -1,5 +1,5 @@
 # Cybercraft Block Animations
-[Download](https://github.com/vata-ot-nata/cybercraft-block-anim/releases)
+[Download](https://github.com/vata-ot-nata/cybercraft-block-anim/releases/latest)
 
 BlockAnim allows server administrators to create dynamic block animations using a sequence of static animation frames placed next to each other in the world with a fixed offset along the X-axis.
 Each frame is a pre-built block structure that remains static in its original location. BlockAnim sequentially copies these frames and pastes them into a designated target location,
@@ -19,7 +19,7 @@ The plugin uses WorldEdit's clipboard system to efficiently copy regions and pas
 ## Installation
 
 1. Install [WorldEdit](https://modrinth.com/plugin/worldedit/versions?l=paper) on your server
-2. [Download the latest BlockAnim.jar](https://github.com/vata-ot-nata/cybercraft-block-anim/releases) and place it in your `plugins` folder
+2. [Download the latest BlockAnim.jar](https://github.com/vata-ot-nata/cybercraft-block-anim/releases/latest) and place it in your `plugins` folder
 3. Restart the server
 4. Use `/animcreate` to set up your first animation
 
